@@ -31,4 +31,15 @@ public class UserInfoService {
 
         return "";
     }
+
+    public String datacheck(String data){
+
+        if(data.trim().equals("success")){
+            System.out.println("fail");
+
+            return "fail";
+        }
+
+        return "success";
+    }
 }
