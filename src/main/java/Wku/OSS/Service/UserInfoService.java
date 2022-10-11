@@ -21,6 +21,7 @@ public class UserInfoService {
     public String logout(){
 
         System.out.println("logout");
+        System.out.println("good bye my friend");
 
         return "logout";
     }
