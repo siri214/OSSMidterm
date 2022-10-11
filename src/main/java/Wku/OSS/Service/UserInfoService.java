@@ -17,4 +17,11 @@ public class UserInfoService {
 
         return "success";
     }
+
+    public String logout(){
+
+        System.out.println("logout");
+
+        return "logout";
+    }
 }
