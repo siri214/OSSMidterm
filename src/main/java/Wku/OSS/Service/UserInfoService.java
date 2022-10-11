@@ -38,6 +38,8 @@ public class UserInfoService {
             System.out.println("fail");
 
             return "fail";
+        }else{
+            System.out.println("say Hello again");
         }
 
         return "success";
