@@ -24,4 +24,11 @@ public class UserInfoService {
 
         return "logout";
     }
+
+    public String sayHello(){
+
+        System.out.println("say Hello");
+
+        return "";
+    }
 }
